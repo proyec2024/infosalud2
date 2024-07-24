@@ -1,0 +1,87 @@
+/* u.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #007bff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+.welcome-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.welcome-box h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.welcome-box p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.image-container {
+    text-align: center;
+    background-color: #343a40;
+    padding: 100px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.welcome-image {
+    width: 80%;
+    max-width: 150px;
+    border-radius: 10px;
+    animation: moveUpDown 3s infinite;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 20px;
+    }
+}
+
+.main h2, .main p {
+    text-align: center;
+}
+
+.destacado {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.destacado .producto {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.footer .redes-sociales a img {
+    margin: 0 5px;
+}
